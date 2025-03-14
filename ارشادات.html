@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS for smooth mobile menu transition */
+        #mobile-menu {
+            transition: transform 0.3s ease-in-out;
+            transform: translateX(100%); /* Initially off-screen to the right */
+        }
+        #mobile-menu.open {
+            transform: translateX(0); /* Slide in when open */
+        }
+    </style>
+</head>
+<body class="h-full font-bold">
+
+    <div class="min-h-full">
+        <nav class="bg-gray-800 flex justify-end">
+          <div class="flex flex-row-reverse max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-end">
+              <div class="flex justify-end">
+                <div class="hidden md:block">
+                  <div class="ml-10 flex items-baseline justify-end space-x-4">
+                    <a href="./عن_الفريق.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> عن الفريق </a>
+                    <a href="./تواصل_معنا.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> تواصل معنا </a>
+                    <a href="./التحقق.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> التحقق </a>
+                    <a href="./التعلم.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> التعلم </a>
+                    <a href="./المراجع.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> المراجع </a>
+                    <a href="./ارشادات.html" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page"> ارشادات </a>
+                    <a href="./index.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> الصفحه الرئيسيه </a>
+                  </div>
+                </div>
+                <div class="shrink-0">
+                  <img class="h-10 w-15 ml-10" src="./Photo/ZX.png" alt="Your Logo">
+                </div>
+              </div>
+
+              <div class="-mr-2 flex md:hidden">
+                <button type="button" id="menu-button" class="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                  <span class="absolute -inset-0.5"></span>
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:hidden absolute top-16 right-0 w-64 bg-gray-800 z-10" id="mobile-menu">
+            <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3">
+              <a href="./عن_الفريق.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> عن الفريق </a>
+              <a href="./تواصل_معنا.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> تواصل معنا </a>
+              <a href="./التحقق.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> التحقق </a>
+              <a href="./التعلم.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> التعلم </a>
+              <a href="./المراجع.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> المراجع </a>
+              <a href="./ارشادات.html" class="block rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page"> ارشادات </a>
+              <a href="./index.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> الصفحه الرئيسيه </a>
+            </div>
+          </div>
+        </nav>
+
+        <header class="bg-white shadow-sm">
+          <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 flex justify-end">
+            <h1 class="text-3xl font-bold tracking-tight text-gray-900"> ارشادات</h1>
+          </div>
+        </header>
+
+
+        <main>
+          <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+            <div class="bg-gray-50 py-24 sm:py-32">
+              <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+                <h2 class="text-3xl font-bold text-gray-900 text-center mb-8">نصائح لتحسين النطق والتواصل</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <!-- نصيحة 1 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">🧡 الصبر والدعم العاطفي</h3>
+                    <p class="text-gray-600">كن صبورًا مع الطفل وامنحه الوقت للتعبير عن نفسه دون ضغط. الشعور بالأمان يساعده على النطق بشكل أفضل.</p>
+                  </div>
+                  
+                  <!-- نصيحة 2 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">🗣️ التحدث ببطء ووضوح</h3>
+                    <p class="text-gray-600">تحدث مع الطفل بجمل قصيرة وواضحة، وكرر الكلمات التي يجد صعوبة في نطقها بهدوء.</p>
+                  </div>
+                  
+                  <!-- نصيحة 3 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">🎯 التشجيع على التواصل</h3>
+                    <p class="text-gray-600">شجع الطفل على الحديث واستخدم الألعاب التفاعلية مثل الغناء والقراءة لتحفيزه.</p>
+                  </div>
+                  
+                  <!-- نصيحة 4 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">👂 الاستماع الجيد</h3>
+                    <p class="text-gray-600">امنح الطفل انتباهك الكامل، وتجنب مقاطعته أثناء التلعثم.</p>
+                  </div>
+                  
+                  <!-- نصيحة 5 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">🎭 ممارسة تمارين النطق</h3>
+                    <p class="text-gray-600">مارس معه تكرار الأصوات الصعبة بطريقة لعبية، مثل التحدث أمام المرآة.</p>
+                  </div>
+                  
+                  <!-- نصيحة 6 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">🩺 استشارة مختص</h3>
+                    <p class="text-gray-600">إذا استمر تأخر النطق بعد سن 4-5 سنوات، استشر أخصائي علاج نطق.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- التحذيرات -->
+            <div class="bg-red-50 py-24 sm:py-32 mt-12">
+              <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+                <h2 class="text-3xl font-bold text-red-900 text-center mb-8">⚠️ تحذيرات يجب مراعاتها</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <!-- تحذير 1 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">❌ تجنب التصحيح المستمر</h3>
+                    <p class="text-gray-600">لا تصحح للطفل نطقه باستمرار، بل كرر الكلمة صحيحة بشكل طبيعي.</p>
+                  </div>
+                  
+                  <!-- تحذير 2 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">🙅‍♂️ عدم السخرية أو المقارنة</h3>
+                    <p class="text-gray-600">تجنب السخرية من الطفل أو مقارنته بالآخرين، فهذا قد يؤثر على ثقته بنفسه.</p>
+                  </div>
+                  
+                  <!-- تحذير 3 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">⚠️ الحذر من الضغط النفسي</h3>
+                    <p class="text-gray-600">لا تضع الطفل في مواقف تجعله مضطرًا للتحدث أمام الآخرين إذا كان خجولًا.</p>
+                  </div>
+                  
+                  <!-- تحذير 4 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">🚫 تجنب التجاهل</h3>
+                    <p class="text-gray-600">إذا كان هناك تأخر واضح في النطق، لا تتجاهله، التدخل المبكر ضروري.</p>
+                  </div>
+                  
+                  <!-- تحذير 5 -->
+                  <div class="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">🔍 الحذر من العادات الخاطئة</h3>
+                    <p class="text-gray-600">العادات مثل مص الإصبع واستخدام اللهاية لفترات طويلة قد تؤثر على النطق.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        
+
+        <!-- Footer Section -->
+        <footer class="bg-gray-800 text-white py-6">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+              <div class="mb-4 md:mb-0">
+                <p class="text-sm">&copy; 2025 جميع الحقوق محفوظة</p>
+              </div>
+              <div class="flex space-x-4">
+                <a href="#" class="text-sm text-gray-300 hover:text-white">تواصل معنا</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuButton = document.getElementById('menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+      
+            menuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('open');
+                
+                // Update aria-expanded attribute for accessibility
+                const isExpanded = menuButton.getAttribute('aria-expanded') === 'true';
+                menuButton.setAttribute('aria-expanded', !isExpanded);
+            });
+        });
+      </script>
+
+</body>
+</html>

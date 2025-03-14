@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS for smooth mobile menu transition */
+        #mobile-menu {
+            transition: transform 0.3s ease-in-out;
+            transform: translateX(100%); /* Initially off-screen to the right */
+        }
+        #mobile-menu.open {
+            transform: translateX(0); /* Slide in when open */
+        }
+    </style>
+</head>
+<body class="h-full font-bold">
+
+    <div class="min-h-full">
+        <nav class="bg-gray-800 flex justify-end">
+          <div class="flex flex-row-reverse max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-end">
+              <div class="flex justify-end">
+                <div class="hidden md:block">
+                  <div class="ml-10 flex items-baseline justify-end space-x-4">
+                    <a href="/عن_الفريق.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> عن الفريق </a>
+                    <a href="/تواصل_معنا.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> تواصل معنا </a>
+                    <a href="./التحقق.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> التحقق </a>
+                    <a href="./التعلم.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> التعلم </a>
+                    <a href="./المراجع.html" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page"> المراجع </a>
+                    <a href="./ارشادات.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" > ارشادات </a>
+                    <a href="./index.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> الصفحه الرئيسيه </a>
+                  </div>
+                </div>
+                <div class="shrink-0">
+                  <img class="h-10 w-15 ml-10" src="./Photo/ZX.png" alt="Your Logo">
+                </div>
+              </div>
+
+              <div class="-mr-2 flex md:hidden">
+                <button type="button" id="menu-button" class="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                  <span class="absolute -inset-0.5"></span>
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="md:hidden absolute top-16 right-0 w-64 bg-gray-800 z-10" id="mobile-menu">
+            <div class="space-y-1 px-2 pt-2 pb-3 sm:px-3">
+                    <a href="/عن_الفريق.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> عن الفريق </a>
+                    <a href="/تواصل_معنا.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> تواصل معنا </a>
+                    <a href="./التحقق.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> التحقق </a>
+                    <a href="./التعلم.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> التعلم </a>
+                    <a href="./المراجع.html" class="block rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white" aria-current="page"> المراجع </a>
+                    <a href="./ارشادات.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> ارشادات </a>
+                    <a href="./index.html" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"> الصفحه الرئيسيه </a>
+            </div>
+          </div>
+        </nav>
+
+        <header class="bg-white shadow-sm">
+          <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 flex justify-end">
+            <h1 class="text-3xl font-bold tracking-tight text-gray-900"> المراجع </h1>
+          </div>
+        </header>
+
+<main dir="rtl">
+  <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+    <div class="bg-gray-50 py-24 sm:py-32">
+      <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-900 text-center mb-8">اضطرابات النطق والتواصل</h2>
+        
+        <div class="space-y-8">
+<!-- التأتأة (Stuttering) -->
+<div class="bg-white p-6 rounded-2xl shadow-lg">
+  <details class="group">
+    <summary class="text-2xl font-semibold text-gray-800 cursor-pointer flex justify-between items-center">🗣️ التلعثم (التأتأة - Stuttering) <span class="transition-transform group-open:rotate-180">▼</span></summary>
+    <div class="ml-4 mt-2 space-y-2">
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">التعريف <span class="transition-transform group-open:rotate-180">▼</span></summary><p class="text-gray-600">اضطراب في طلاقة الكلام يؤدي إلى انقطاعات غير طبيعية في تدفق الحديث، مثل التكرار أو التوقف.</p></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">الأعراض <span class="transition-transform group-open:rotate-180">▼</span></summary>
+        <ul class="list-disc list-inside text-gray-600">
+          <li>تكرار الأصوات أو المقاطع: (مثل "م-м-м-мاما" أو "با-با-بابا").</li>
+          <li>إطالة الأصوات: (مثل "سسسسسلام" أو "أأأأنا").</li>
+          <li>توقفات صامتة: (مثل "أريد --- ماء" مع توقف مفاجئ).</li>
+          <li>علامات جسدية: رمش العين، ارتعاش الشفاه، أو توتر الوجه أثناء محاولة الكلام.</li>
+          <li>تجنب الكلام: قد يصمت الطفل أو يستبدل كلمات صعبة بأخرى أسهل.</li>
+        </ul>
+      </details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">الأسباب <span class="transition-transform group-open:rotate-180">▼</span></summary>
+        <ul class="list-disc list-inside text-gray-600">
+          <li>وراثية: حوالي 60% من المتعثمين لديهم تاريخ عائلي للتأتأة.</li>
+          <li>عصبية: خلل طفيف في تنسيق الإشارات بين الدماغ وعضلات الكلام.</li>
+          <li>نفسية: القلق أو الضغط (مثل تغيير المدرسة) قد يزيد الأعراض، لكنه ليس سببًا رئيسيًا.</li>
+          <li>تطورية: شائعة بين سن 2-5 سنوات أثناء تطور اللغة، وغالبًا تختفي تلقائيًا.</li>
+        </ul>
+      </details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">متى تقلقين؟ <span class="transition-transform group-open:rotate-180">▼</span></summary>
+        <ul class="list-disc list-inside text-gray-600">
+          <li>إذا استمر التعثم أكثر من 6 أشهر أو تفاقم بعد سن 4 سنوات.</li>
+          <li>إذا كان الطفل يظهر إحباطًا شديدًا أو يتجنب التواصل.</li>
+          <li>إذا ظهرت علامات جسدية واضحة مع التأتأة.</li>
+        </ul>
+      </details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">العلاج <span class="transition-transform group-open:rotate-180">▼</span></summary>
+        <ul class="list-disc list-inside text-gray-600">
+          <li>علاج النطق: جلسات مع أخصائي لتعليم تقنيات التنفس والكلام البطيء.</li>
+          <li>الدعم المنزلي: تحدثي ببطء وهدوء، وامنحيه وقتًا للرد دون مقاطعة.</li>
+          <li>تقليل الضغط: تجنبي المواقف التي تزيد توتره (مثل مطالبته بالكلام أمام غرباء).</li>
+        </ul>
+      </details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">نصائح عملية <span class="transition-transform group-open:rotate-180">▼</span></summary>
+        <ul class="list-disc list-inside text-gray-600">
+          <li>مارسي معه تمارين التنفس العميق قبل الكلام.</li>
+          <li>شجعيه على الغناء أو قراءة شعر بصوت عالٍ، لأن التأتأة غالبًا تقل في هذه الأنشطة.</li>
+        </ul>
+      </details>
+    </div>
+  </details>
+</div>
+
+
+          <!-- تأخر النطق -->
+<div class="bg-white p-6 rounded-2xl shadow-lg">
+  <details class="group">
+    <summary class="text-2xl font-semibold text-gray-800 cursor-pointer flex justify-between items-center">🗣️ تأخر النطق (Speech Delay) <span class="transition-transform group-open:rotate-180">▼</span></summary>
+    <div class="ml-4 mt-2 space-y-2">
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">التعريف <span class="transition-transform group-open:rotate-180">▼</span></summary><p class="text-gray-600">تأخر في اكتساب مهارات الكلام مقارنة بالمعدل الطبيعي لعمر الطفل.</p></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">الأعراض <span class="transition-transform group-open:rotate-180">▼</span></summary><ul class="list-disc list-inside text-gray-600"><li>سن 2: لا ينطق أكثر من 10-15 كلمة مفهومة.</li><li>سن 3: لا يستخدم جملًا قصيرة (مثل "أريد ماء").</li><li>اعتماد غير لفظي: يشير أو يصدر أصواتًا بدلاً من الكلام.</li><li>صعوبة الفهم: كلامه غير واضح حتى للأهل.</li></ul></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">الأسباب <span class="transition-transform group-open:rotate-180">▼</span></summary><ul class="list-disc list-inside text-gray-600"><li>مشكلات السمع: التهابات الأذن المزمنة تقلل من قدرته على سماع الكلام.</li><li>تأخر عصبي: بطء في نضج مراكز الكلام في الدماغ.</li><li>بيئية: قلة التفاعل اللغوي (مثل عدم القراءة له أو التحدث معه).</li><li>اضطرابات أخرى: مثل التوحد أو متلازمة داون.</li></ul></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">متى تقلقين؟ <span class="transition-transform group-open:rotate-180">▼</span></summary><ul class="list-disc list-inside text-gray-600"><li>إذا لم ينطق جملًا بحلول 3 سنوات.</li><li>إذا كان يفقد كلمات كان يستخدمها سابقًا.</li><li>إذا كان لا يستجيب للأصوات أو الأوامر البسيطة.</li></ul></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">العلاج <span class="transition-transform group-open:rotate-180">▼</span></summary><ul class="list-disc list-inside text-gray-600"><li>فحص السمع: للتأكد من عدم وجود مشكلة في الأذن.</li><li>علاج النطق: تمارين لتحسين المفردات وحركة الفم.</li><li>تحفيز منزلي: اقرئي له يوميًا، كرري الكلمات، واطلبي منه تسمية الأشياء.</li></ul></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">نصائح عملية <span class="transition-transform group-open:rotate-180">▼</span></summary><p class="text-gray-600">استخدمي الصور أو البطاقات لتعليمه كلمات جديدة مثل "تفاحة" مع صورة. كافئيه عندما يحاول التحدث، حتى لو كان الكلام غير واضح.</p></details>
+    </div>
+  </details>
+</div>
+
+<!-- اللدغة -->
+<div class="bg-white p-6 rounded-2xl shadow-lg">
+  <details class="group">
+    <summary class="text-2xl font-semibold text-gray-800 cursor-pointer flex justify-between items-center">🗣️ اللدغة (Lisping) <span class="transition-transform group-open:rotate-180">▼</span></summary>
+    <div class="ml-4 mt-2 space-y-2">
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">التعريف <span class="transition-transform group-open:rotate-180">▼</span></summary><p class="text-gray-600">صعوبة في نطق أصوات معينة (مثل "س"، "ش"، "ث"، "ر") بشكل صحيح، مما يجعل الكلام مشوهًا.</p></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">الأعراض <span class="transition-transform group-open:rotate-180">▼</span></summary><ul class="list-disc list-inside text-gray-600"><li>لدغة أمامية: "ثوب" بدلاً من "سوب" (اللسان بين الأسنان).</li><li>لدغة جانبية: خروج الهواء من جانب الفم مع صوت مشوه.</li><li>نطق "ر": "واجل" بدلاً من "راجل".</li><li>قد يفهم الآخرون الكلام لكن بصعوبة.</li></ul></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">الأسباب <span class="transition-transform group-open:rotate-180">▼</span></summary><ul class="list-disc list-inside text-gray-600"><li>تشريحية: ربطة لسان قصيرة تمنع حركة اللسان الكاملة.</li><li>عادات: مص الأصبع أو اللهاية لفترة طويلة.</li><li>ضعف عضلي: عدم تناسق عضلات الفم أو اللسان.</li><li>تقليد: قد يكون الطفل يقلد شخصًا آخر يعاني من اللدغة.</li></ul></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">متى تقلقين؟ <span class="transition-transform group-open:rotate-180">▼</span></summary><ul class="list-disc list-inside text-gray-600"><li>إذا استمرت بعد سن 5 سنوات.</li><li>إذا كانت تؤثر على ثقته أو تعرضه للسخرية.</li><li>إذا كان هناك ألم أو صعوبة في تحريك اللسان.</li></ul></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">العلاج <span class="transition-transform group-open:rotate-180">▼</span></summary><ul class="list-disc list-inside text-gray-600"><li>تمارين النطق: تعليم الطفل وضعية اللسان الصحيحة.</li><li>جراحة بسيطة: في حالة ربطة اللسان القصيرة.</li><li>دعم منزلي: مارسي معه نطق الكلمات أمام مرآة لرؤية حركة الفم.</li></ul></details>
+      <details class="group"><summary class="font-semibold text-gray-700 cursor-pointer flex justify-between">نصائح عملية <span class="transition-transform group-open:rotate-180">▼</span></summary><p class="text-gray-600">لنطق "ر": اطلبي منه أن يهز لسانه مع صوت "ددد" ثم يحوله إلى "ررر". لنطق "س": استخدمي قشة لتعليمه توجيه الهواء للأمام.</p></details>
+    </div>
+  </details>
+</div>
+
+
+
+          
+          <!-- جدول المقارنة -->
+          <div class="bg-white p-6 rounded-2xl shadow-lg">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">📊 مقارنة بين اضطرابات النطق</h3>
+            <div class="overflow-x-auto">
+              <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                  <tr class="bg-gray-200">
+                    <th class="border px-4 py-2">الحالة</th>
+                    <th class="border px-4 py-2">العَرَض الرئيسي</th>
+                    <th class="border px-4 py-2">العمر الطبيعي للتحسن</th>
+                    <th class="border px-4 py-2">العلاج الأساسي</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="border px-4 py-2">التأتأة</td>
+                    <td class="border px-4 py-2">تكرار أو توقف في الكلام</td>
+                    <td class="border px-4 py-2">2-5 سنوات</td>
+                    <td class="border px-4 py-2">علاج نطق + دعم نفسي</td>
+                  </tr>
+                  <tr>
+                    <td class="border px-4 py-2">تأخر النطق</td>
+                    <td class="border px-4 py-2">قلة الكلمات أو الجمل</td>
+                    <td class="border px-4 py-2">3-4 سنوات</td>
+                    <td class="border px-4 py-2">تحفيز لغوي + فحص سمع</td>
+                  </tr>
+                  <tr>
+                    <td class="border px-4 py-2">اللدغة</td>
+                    <td class="border px-4 py-2">تشويه أصوات معينة</td>
+                    <td class="border px-4 py-2">4-5 سنوات</td>
+                    <td class="border px-4 py-2">تمارين لسان + تقييم</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          
+<!-- قسم المراجع -->
+    <section class="py-12 px-4">
+        <div class="bg-white p-6 rounded-2xl shadow-lg reference-section">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">📚 مراجع ومصادر موثوقة</h3>
+            <ul class="list-disc list-inside text-gray-600">
+                <li><a href="https://www.asha.org" class="text-blue-500 underline reference-link" target="_blank">ASHA (الجمعية الأمريكية للنطق والسمع)</a> - مصادر علمية حول اضطرابات النطق.</li>
+                <li><a href="https://www.nhs.uk" class="text-blue-500 underline reference-link" target="_blank">NHS (الخدمة الصحية الوطنية - المملكة المتحدة)</a> - معلومات موثوقة حول تأخر النطق.</li>
+                <li><a href="https://www.stutteringhelp.org" class="text-blue-500 underline reference-link" target="_blank">The Stuttering Foundation</a> - موارد حول التأتأة وكيفية التعامل معها.</li>
+                <li><a href="https://www.mayoclinic.org" class="text-blue-500 underline reference-link" target="_blank">Mayo Clinic</a> - معلومات طبية عن اضطرابات النطق والعلاج.</li>
+                <li>كتاب "Speech and Language Development" - شرح تطور الكلام واضطراباته.</li>
+                <li><a href="https://www.cdc.gov/ncbddd/stutter/" class="text-blue-500 underline reference-link" target="_blank">Centers for Disease Control and Prevention (CDC)</a> - معلومات عن التأتأة وتطور الكلام.</li>
+            </ul>
+        </div>
+    </section>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="bg-gray-800 text-white py-6">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+      <div class="mb-4 md:mb-0">
+        <p class="text-sm">&copy; 2025 جميع الحقوق محفوظة</p>
+      </div>
+      <div class="flex space-x-4">
+        <a href="#" class="text-sm text-gray-300 hover:text-white">تواصل معنا</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const menuButton = document.getElementById('menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      menuButton.addEventListener('click', function() {
+          mobileMenu.classList.toggle('open');
+          
+          // Update aria-expanded attribute for accessibility
+          const isExpanded = menuButton.getAttribute('aria-expanded') === 'true';
+          menuButton.setAttribute('aria-expanded', !isExpanded);
+      });
+  });
+</script>
+
+</body>
+</html>
